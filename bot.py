@@ -34,7 +34,7 @@ async def process(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Hauptfunktion
 def main():
-    API_TOKEN = "8172520206:AAFdYmRIAc5QZlapfKEEOBTgrOvZ6XtCL0U"
+    API_TOKEN = ""
 
     # Anwendung erstellen
     application = Application.builder().token(API_TOKEN).build()
